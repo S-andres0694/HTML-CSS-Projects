@@ -1,0 +1,22 @@
+#container{
+    height: 10000px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font: -apple-system-short-body;
+    font-style: italic;
+}
+
+.off{
+    width: 2532px;
+    height: 1500px;
+    background: url("Photo 1000003137.jpg") no-repeat;
+    margin: auto;
+}
+
+.on {
+    width: 2532px;
+    height: 1500px;
+    background: url("Asap Rocky Iconn.jpg") no-repeat;
+    margin: auto;
+}
