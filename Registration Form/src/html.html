@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<h1>Registration Form</h1>
+<p>Please fill out this form with the required information</p>
+<form action="https://register-demo.freecodecamp.org" method="post">
+    <fieldset>
+        <label for="First Name">Enter your first name:
+            <input name = "first-name" type="text" id="First Name" required>
+        </label>
+        <label for="Last Name">Enter your last name:
+            <input name = "last-name" type="text" id="Last Name" required>
+        </label>
+        <label for="Email">Enter your email:
+            <input name = "email" type="email" id="Email" required>
+        </label>
+        <label for="Password">Create your new password:
+            <input name = "password" type="password" id="Password" required minlength="8" pattern="[a-z0-5]{8,}">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Account Type (required)</legend>
+        <label for="Personal-Account">
+            <input class = "inline" id="Personal-Account" type="radio" name="Account-Type" checked> Personal
+        </label>
+        <label for="Business-Account">
+            <input class = "inline" id="Business-Account" type="radio" name="Account-Type"> Business
+        </label>
+    </fieldset>
+    <fieldset>
+        <label for="profile-picture">
+            Upload a profile picture:
+            <input name = "id" id="profile-picture" type="file">
+        </label>
+        <label for="age">
+            Input your age in years:
+            <input id="age" name = "age" type="number" min="13" max="120">
+        </label>
+        <label for="referrer">
+            How did you hear about us?
+            <select id="referrer" name = "referrer">
+                <option value="">(select one)</option>
+                <option value="1">freeCodeCamp News</option>
+                <option value="2">freeCodeCamp YouTube Channel</option>
+                <option value="3">freeCodeCamp Forum</option>
+                <option value="4">Other</option>
+            </select>
+        </label>
+        <label for="bio">
+            Provide a bio:
+            <textarea name = "bio" id="bio" rows = "3" cols = "30"></textarea>
+        </label>
+    </fieldset>
+    <label for="Terms-And-Conditions">
+        <input class = "inline" name = "terms" required type=checkbox id="Terms-And-Conditions"> I accept the <a
+            href="https://www.freecodecamp.org/news/terms-of-service/"> terms and conditions </a>
+    </label>
+    <input type="submit" value="Submit Form">
+</form>
+</body>
+</html>
