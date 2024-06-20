@@ -1,0 +1,24 @@
+#title, #description{
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#description{
+    font-style: italic;
+}
+
+.form-container{
+    margin: 2rem 1rem;
+    border-width: 0 0 0 0;
+}
+fieldset{
+    border-width: 0 0 10px 0;
+    border-color: blue;
+    border-style: dot-dash;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 20%;
+}
