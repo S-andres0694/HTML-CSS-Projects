@@ -7,18 +7,87 @@
     font-style: italic;
 }
 
-.form-container{
-    margin: 2rem 1rem;
-    border-width: 0 0 0 0;
-}
-fieldset{
-    border-width: 0 0 10px 0;
-    border-color: blue;
-    border-style: dot-dash;
+form{
+    display: block;
+    border-style: solid;
+    background-color: #410d79;
+    margin: 1em auto;
+    padding: 1rem;
+    width: 50vw;
+    min-width: 50vw;
+    max-width: 60vw;
+    height: auto;
 }
 
-input{
+.group{
+    border-width: 0;
     display: block;
-    width: 80%;
-    height: 20%;
 }
+
+.P1{
+    text-align: left;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+input[type = "checkbox"]{
+    display: inline-block;
+}
+
+.dropdown{
+    margin-top: -5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    display: block;
+    width: 100%;
+    height: 2.5vh;
+    margin: 0.5vh 0 1.4vh 0;
+}
+
+label[for= "submit"]{
+    display: flex;
+    justify-content: center;
+    color: ivory;
+}
+
+select{
+    margin: 0.5vh 0 1vh 0;
+    display: block;
+    width: 102%;
+    height: 3vh;
+}
+
+label{
+    display: block;
+    margin: 5px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.checkboxes{
+    font-size: 0.9rem;
+}
+
+textarea{
+    width: 100%;
+    height: 10vh;
+}
+
+
+p{
+    color: whitesmoke;
+    margin: 1vh;
+}
+
+html, body{
+    align-items: center;
+    background-color: #b25eb2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 100vh;
+}
+
+
+

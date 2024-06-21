@@ -1,24 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel = "stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>My Personal Custom Form</title>
 </head>
 <body>
-    <h1 id = "title">My Personal Custom Form</h1>
-    <p id = "description">My own personal form, asking just a couple of questions</p>
-    <div class = "form-container">
-        <form id = "survey-form">
-            <fieldset>
-                <label for = "person name">Name</label>
-                <input type = "text" id = "person name" required placeholder="John Doe">
-                <label for = "person email">Email</label>
-                <input type = "email" id = "person email" required placeholder="random@email.com">
-            </fieldset>
-        </form>
-    </div>
+<h1 id="title">Company Survey Form</h1>
+<p id="description">Thank you for taking time to improve the platform</p>
+    <form id="survey-form" method="post">
+        <fieldset class="group">
+            <label for="name" id = "name-label">Name
+                <input type="text" id="name" required placeholder="John Doe" name="name">
+            </label>
+            <label for="email" id = "email-label">Email
+                <input type="email" id="email" required placeholder="random@email.com" name="email">
+            </label>
+            <label for="number" id = "number-label">Age (Optional)
+                <input id="number" type="number" min="18" max="120" name="age" placeholder="18">
+            </label>
+            <label for="dropdown" class = "dropdown"> What are you currently doing right now?
+                <select id = "dropdown">
+                    <option>Select current status</option>
+                    <option>Student</option>
+                    <option>Full-Time Job</option>
+                    <option>Full-Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+            </label>
+            <p id = "checker">Would you recommend this service to other people?</p>
+            <label for = "Yes" class = "checkboxes">
+                <input type = "radio" id = "Yes" name = "opinion" value = "yes" checked> Definitely!
+            </label>
+            <label for = "maybe" class = "checkboxes">
+                <input type = "radio" id = "maybe" name = "opinion" value = "maybe"> Maybe
+            </label>
+            <label for = "unsure" class = "checkboxes">
+                <input type = "radio" id = "unsure" name = "opinion" value = "unsure"> Not Sure
+            </label>
+            <label for = "no" class = "checkboxes">
+                <input type = "radio" id = "no" name = "opinion" value = "no"> No
+            </label>
+        </fieldset>
+        <fieldset class = "group">
+            <label for = "favorite-trait" class = "dropdown"> What is your favorite trait of mine?
+                <select id = "favorite-trait">
+                    <option>Select one</option>
+                    <option>My Personality!</option>
+                    <option>My Brains!</option>
+                    <option>idk fuck off</option>
+                </select>
+            </label>
+            <p id = "improvements">What would you like to improve about me?</p>
+            <label for = "improv1" class = "checkboxes">
+                <input type = "checkbox" id = "improv1" name = "improv1" value = "Front-End Development"> Front-End Development
+            </label>
+            <label for = "improv2" class = "checkboxes">
+                <input type = "checkbox" id = "improv2" name = "improv2" value = "Back-End Development"> Back-End Development
+            </label>
+            <label for = "improv3" class = "checkboxes">
+                <input type = "checkbox" id = "improv3" name = "improv3" value = "Challenges"> Challenges
+            </label>
+            <label for = "improv4" class = "checkboxes">
+                <input type = "checkbox" id = "improv4" name = "improv4" value = "Git"> Git
+            </label>
+            <label for = "improv5" class = "checkboxes">
+                <input type = "checkbox" id = "improv5" name = "improv5" value = "Additional Courses"> Additional Courses
+            </label>
+        </fieldset>
+        <fieldset class = "group">
+            <p>Any comments or suggestions?</p>
+            <label for = "feedback">
+                <textarea id = "feedback" rows = "3" cols = "20" maxlength="300" placeholder="Add some comments"></textarea>
+            </label>
+        </fieldset>
+        <label for = "submit">
+            <input id = "submit" type = "submit">
+        </label>
+    </form>
 </body>
 </html>
