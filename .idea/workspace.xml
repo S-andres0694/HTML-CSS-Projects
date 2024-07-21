@@ -18,6 +18,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,46 +47,51 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2i3TJQs9ZhP1SomRz2eGTU7ua9t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sebas/Library/CloudStorage/OneDrive-UniversityofStAndrews/Personal CS Projects/HTML-CSS Projects",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sebas/Library/CloudStorage/OneDrive-UniversityofStAndrews/Personal CS Projects/HTML-CSS Projects&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.10058594&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -106,14 +112,66 @@
       <workItem from="1718792819953" duration="6000" />
       <workItem from="1718804519445" duration="8222000" />
       <workItem from="1718840463038" duration="3000" />
-      <workItem from="1718892813109" duration="9443000" />
+      <workItem from="1718892813109" duration="10197000" />
+      <workItem from="1718916959823" duration="3410000" />
+      <workItem from="1718921247128" duration="78000" />
+      <workItem from="1718972521975" duration="91000" />
+      <workItem from="1718987362544" duration="37000" />
+      <workItem from="1718987408545" duration="112000" />
+      <workItem from="1718987534596" duration="111000" />
+      <workItem from="1718987653663" duration="52000" />
+      <workItem from="1718987722768" duration="67000" />
+      <workItem from="1718987814960" duration="82000" />
+      <workItem from="1718987904286" duration="240000" />
+      <workItem from="1719008111313" duration="4000" />
+      <workItem from="1719068006667" duration="699000" />
+      <workItem from="1719078974757" duration="2783000" />
+      <workItem from="1719100490157" duration="84000" />
+      <workItem from="1719100586739" duration="2696000" />
+      <workItem from="1719169742934" duration="156000" />
+      <workItem from="1719169905704" duration="376000" />
+      <workItem from="1719265286507" duration="12000" />
+      <workItem from="1719515788857" duration="39000" />
+      <workItem from="1719519854595" duration="65000" />
+      <workItem from="1719519927787" duration="59000" />
+      <workItem from="1719519993093" duration="19000" />
+      <workItem from="1719520460448" duration="2971000" />
+      <workItem from="1720190623277" duration="105000" />
+      <workItem from="1720279169771" duration="57000" />
+      <workItem from="1720712069166" duration="43000" />
+      <workItem from="1720715503513" duration="13000" />
+      <workItem from="1720882337462" duration="42000" />
+      <workItem from="1721061190083" duration="166000" />
+      <workItem from="1721247755420" duration="110000" />
+      <workItem from="1721399247248" duration="37000" />
+      <workItem from="1721425846488" duration="598000" />
+      <workItem from="1721482333991" duration="22000" />
+      <workItem from="1721492548827" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
