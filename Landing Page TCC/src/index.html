@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <!-- Link to the fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/eaf0e737bf.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+<header id="header" class="header-section">
+    <img class="header-logo" id="header-img" alt="Logo for the Header"
+         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
+    <nav id="nav-bar" class="nav-bar">
+        <nav class="header-link"><a class="nav-link" href="#product-description">Features</a></nav>
+        <nav class="header-link"><a class="nav-link" href="#How It Works">How it Works</a></nav>
+        <nav class="header-link"><a class="nav-link" href="#price-plan">Pricing</a></nav>
+    </nav>
+</header>
+<main class="main-body-section">
+    <section class="form-section">
+        <div class="email-input-section">
+            <h1 class="main-title">Handcrafted, home-made masterpieces!</h1>
+            <form class="input-form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <label class="email-label" for="email"></label>
+                <input required type="email" id="email" class="email-input" placeholder="Enter your email address">
+                <button id="submit" class="submit-button">Get Started</button>
+            </form>
+        </div>
+    </section>
+    <section id ="product-description" class="product-description">
+        <div class="description">
+            <div class="description-container">
+                <i class="fa-solid fa-fire fa-8x logos"></i>
+                <div class="description-text-container">
+                    <h2 class="description-header">Premium Materials</h2>
+                    <p class="description-text">Our trombones use the shiniest brass which is sourced locally. This will
+                        increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div class="description-container">
+                <i class="fa-solid fa-truck fa-8x logos"></i>
+                <div class="description-text-container">
+                    <h2 class="description-header">Fast Shipping</h2>
+                    <p class="description-text">We make sure you recieve your trombone as soon as we have finished
+                        making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="description-container">
+                <i class="fa-solid fa-battery fa-8x logos"></i>
+                <div class="description-text-container">
+                    <h2 class="description-header">Quality Assurance</h2>
+                    <p class="description-text">For every purchase you make, we will ensure there are no damages or
+                        faults, and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "How It Works" class="youtube-video">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                    title="Roman Carnival Overture Op. 9 for Five Trombones"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id = "video"></iframe>
+        </div>
+    </section >
+    <section class="price-plan" id = "price-plan">
+        <div class="price-plan-container">
+            <div class="tenor-trombone plan">
+                <h2 class="plan-header">Tenor Trombone</h2>
+                <p class="plan-price">$600</p>
+                <ul class="plan-features">
+                    <li class="plan-feature">Lorem ipsum dolor sit amet</li>
+                    <li class="plan-feature">Consectetur adipiscing elit</li>
+                    <li class="plan-feature">Integer molestie lorem at massa</li>
+                    <li class="plan-feature">Facilisis in pretium nisl aliquet</li>
+                </ul>
+                <button class="plan-button">Select</button>
+            </div>
+            <div class="bass-trombone plan">
+                <h2 class="plan-header">Bass Trombone</h2>
+                <p class="plan-price">$900</p>
+                <ul class="plan-features">
+                    <li class="plan-feature">Lorem ipsum dolor sit amet</li>
+                    <li class="plan-feature">Consectetur adipiscing elit</li>
+                    <li class="plan-feature">Integer molestie lorem at massa</li>
+                    <li class="plan-feature">Facilisis in pretium nisl aliquet</li>
+                </ul>
+                <button class="plan-button">Select</button>
+            </div>
+            <div class="valve-trombone plan">
+                <h2 class="plan-header">Valve Trombone</h2>
+                <p class="plan-price">$1200</p>
+                <ul class="plan-features">
+                    <li class="plan-feature">Lorem ipsum dolor sit amet</li>
+                    <li class="plan-feature">Consectetur adipiscing elit</li>
+                    <li class="plan-feature">Integer molestie lorem at massa</li>
+                    <li class="plan-feature">Facilisis in pretium nisl aliquet</li>
+                </ul>
+                <button class="plan-button">Select</button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer-section">
+    <div class="footer-container">
+        <div class="footer-nav">
+            <p class = "footer-link"><a class = "link" href = "https://product-landing-page.freecodecamp.rocks/#">Privacy</a></p>
+            <p class = "footer-link"><a class = "link" href = "https://product-landing-page.freecodecamp.rocks/#">Terms</a></p>
+            <p class = "footer-link"><a class = "link" href = "https://product-landing-page.freecodecamp.rocks/#">Contact</a></p>
+        </div>
+        <h2 class = "footer-text">Copyright 2016, Original Trombones</h2>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,326 @@
+/*
+    Global Constants
+ */
+
+html{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+    overflow: visible;
+}
+
+:root{
+    --orange-images-color: #FF8C00;
+    --text-color: #000000;
+    --price-plan-header-color: #DDDDDD;
+    --footer-color: #DDDDDD;
+    --background-color: #EEEEEE;
+    --button-color: #F1C40F;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    End of the Global Constants
+ */
+
+/*
+Media Queries
+ */
+
+@media (max-width: 750px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+    .header-section{
+        flex-direction: column;
+    }
+    .header-logo{
+        align-self: center;
+        justify-self: center;
+        padding-left: 2rem;
+    }
+    .main-title{
+        padding-top: 110px;
+    }
+    .price-plan-container{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 10px;
+        padding: 0 10px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 5px 5px;
+        border: 2px solid black;
+        min-width: 60vw;
+    }
+    .header-section{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 99999;
+        padding-right: 20px;
+        background-color: var(--background-color);
+    }
+}
+
+/*
+End of Media Queries
+
+ */
+
+/*
+Start of the Header Section
+ */
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+    padding-right: 20px;
+    background-color: var(--background-color);
+}
+
+.header-logo{
+    max-width: 400px;
+    height: auto;
+    margin-right: 30px
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+}
+
+/* End of the Header Section */
+
+/*
+Start of the Email Input Section
+ */
+
+.main-title{
+    margin-top: 100px;
+    font-size: 3rem;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+
+.email-input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    flex-direction: column;
+}
+
+.email-input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.input-form{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.submit-button{
+    width: 55%;
+    margin: 12px auto;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 0;
+    background-color: var(--button-color);
+}
+
+/* End of the Email Input Section */
+
+/* Start of the Description Section */
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    max-width: 918px;
+}
+
+.logos{
+    color: var(--orange-images-color);
+    margin: 0 2.5rem 0;
+    align-self: center;
+    max-width: 70px
+}
+
+.description-text-container{
+    grid-column: 2/-1;
+}
+
+.description-header{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.description-text{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+/* End of the Description Section */
+
+/* Start of the Youtube Video Section */
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* End of the Youtube Video Section */
+
+/* Start of the Price Plan Section */
+
+.price-plan-container{
+    display: flex;
+    margin: 30px 10px;
+    padding: 0 10px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 5px 5px;
+    border: 2px solid black;
+    max-width: calc(90vw / 3);
+}
+
+.plan-header{
+    background-color: var(--price-plan-header-color);
+    font-size: 2rem;
+    padding: 10px;
+    width: calc(100% + 10px);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.plan-price{
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 35px;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.plan-feature{
+    font-size: 1.7rem;
+    padding: 5px 0;
+    text-align: center;
+    align-self: center;
+}
+
+.plan-button{
+    width: 50%;
+    margin: 12px auto;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 0;
+    background-color: var(--button-color);
+}
+
+/* End of the Price Plan Section */
+
+/* Start of the Footer Section */
+
+.footer-container{
+    background-color: var(--footer-color);
+    padding: 10px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    background-color: var(--button-color);
+}
+
+/* End of the Footer Section */
